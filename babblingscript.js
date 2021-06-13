@@ -103,7 +103,7 @@ play.addEventListener('click', playPauseMedia);
 disc.addEventListener('play', updatePlayPauseIcon);
 disc.addEventListener('pause', updatePlayPauseIcon);
 disc.addEventListener('timeupdate', updateProgress);
-disc.addEventListener('ended', pause);
+disc.addEventListener('ended', paused);
 
 // Go to next song when next button clicked
 prev.addEventListener('click', gotoPreviousSong);
