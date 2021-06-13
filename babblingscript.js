@@ -17,7 +17,7 @@ const songs = [
     title: 'Babbling',
     artist: 'Maya-Marie',
     coverPath: 'Almiraj.png',
-    discPath: '.\babbling2.mp3',
+    discPath: 'babbling2.mp3',
     duration: '0:09',
   },
 ];
@@ -87,6 +87,22 @@ function gotoPreviousSong() {
     playPauseMedia();
   }
 }
+
+// Go to next song
+// function gotoNextSong(playImmediately) {
+//   if (songIndex === songs.length - 1) {
+//     songIndex = 0;
+//   } else {
+//     songIndex = songIndex + 1;
+//   }
+//
+//   const isDiscPlayingNow = !disc.paused;
+//   loadSong(songs[songIndex]);
+//   resetProgress();
+//   if (isDiscPlayingNow || playImmediately) {
+//     playPauseMedia();
+//   }
+// }
 
 // Change song progress when clicked on progress bar
 function setProgress(ev) {
