@@ -17,7 +17,7 @@ const songs = [
     title: 'Babbling',
     artist: 'Maya-Marie',
     coverPath: 'Almiraj.png',
-    discPath: 'babbling2.mp3',
+    discPath: '.\babbling2.mp3',
     duration: '0:09',
   },
 ];
